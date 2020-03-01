@@ -42,7 +42,7 @@ class Customers extends Component {
   }
 
   displayDetails = (customers) => {
-    if(Customers){
+    if(customers){
       return (
         <ul>{
         customers.map(customer =>
